@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.product-container,
+.employee-container,
+.student-container,
+.about-container,
+.home-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.product-card,
+.employee-card,
+.student-card,
+.about-item,
+.home-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
